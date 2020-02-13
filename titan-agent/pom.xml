@@ -17,7 +17,7 @@
 		<java-version>1.8</java-version>
 		<titan-utils-version>2.0.0-SNAPSHOT</titan-utils-version>
 		<junit-version>4.8.2</junit-version>
-		<dubbo-version>2.5.3</dubbo-version>
+		<dubbo-version>2.6.7</dubbo-version>
 		<httpclient-version>4.5.2</httpclient-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -32,7 +32,7 @@
 					<source>${java-version}</source>
 					<target>${java-version}</target>
 					<compilerArguments>
-						<verbose />
+						<verbose/>
 						<bootclasspath>${env.JAVA_HOME}/jre/lib/rt.jar</bootclasspath>
 						<extdirs>${project.basedir}/lib</extdirs>
 					</compilerArguments>
