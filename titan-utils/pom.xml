@@ -20,7 +20,7 @@
 		<org.slf4j-version>1.7.12</org.slf4j-version>
 		<zookeeper-version>3.4.6</zookeeper-version>
 		<sgroschupf-version>0.1</sgroschupf-version>
-		<fastjson-version>1.2.5</fastjson-version>
+		<fastjson-version>1.2.67</fastjson-version>
 		<rocketmq-version>3.2.6</rocketmq-version>
 		<commons-net-version>3.5</commons-net-version>
 		<org.springframework-version>3.2.13.RELEASE</org.springframework-version>
@@ -37,7 +37,7 @@
 					<source>${java-version}</source>
 					<target>${java-version}</target>
 					<compilerArguments>
-						<verbose />
+						<verbose/>
 						<bootclasspath>${env.JAVA_HOME}/jre/lib/rt.jar</bootclasspath>
 						<extdirs>${project.basedir}/lib</extdirs>
 					</compilerArguments>
