@@ -20,7 +20,7 @@
 		<titan-utils-version>2.0.0-SNAPSHOT</titan-utils-version>
 		<dubbo-version>2.5.3</dubbo-version>
 		<org.slf4j-version>1.7.12</org.slf4j-version>
-		<druid-version>1.0.15</druid-version>
+		<druid-version>1.2.3</druid-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<hibernate.validator.version>5.4.1.Final</hibernate.validator.version>
 	</properties>
@@ -36,7 +36,7 @@
 					<source>${java-version}</source>
 					<target>${java-version}</target>
 					<compilerArguments>
-						<verbose />
+						<verbose/>
 						<bootclasspath>${env.JAVA_HOME}/jre/lib/rt.jar</bootclasspath>
 						<extdirs>${project.basedir}/lib</extdirs>
 					</compilerArguments>
